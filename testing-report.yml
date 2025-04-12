@@ -1,0 +1,32 @@
+---
+- summary: |
+    Проверка авторизации пользователя
+  status: fail
+
+- summary: |
+    Защита данных пользователя
+  status: fail
+
+- summary: |
+ Поиск товара
+ status: fail
+
+-sumary: |
+Фильтр товара
+ status: pass
+
+-summery: |
+Мобильная версия сайта
+ status: fail
+
+-summery: |
+Совместимость с разными браузера и устройствами
+ status: pass
+
+-summer: |
+Проверка товаров
+ status: pass
+
+-summer: |
+Проверка корзины
+ status: pass
