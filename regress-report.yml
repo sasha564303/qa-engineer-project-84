@@ -1,0 +1,96 @@
+    ---
+test-cases:
+  - summary: |
+      Регистрация пользователя
+    status: fail
+
+bugreports:
+  - summary: |
+      Пользователь не может зарегестриватся
+    environment: |
+            - summary: |
+      Краткое описание тест-кейса. Например, проверка входа пользователя с существующими логином и паролем
+    status: fail
+
+bugreports:
+  - summary: |
+      Короткое описание ошибки
+    environment: |
+          Yandex Browser (25.2.5)
+          OC Windows 11
+    steps-to-reproduce: |
+      При входе на страницу нету окна регистрации
+    expected-result: |
+      Пользовательно должен зарегестриватся
+    actual-result: |
+      Окно регестрации отсуствует
+
+       - summary: |
+      Защита данных пользователя
+    status: fail
+
+bugreports:
+  - summary: |
+      Нет окна регестрации, пенкт проверить невозможно 
+    environment: |
+          Yandex Browser (25.2.5)
+          OC Windows 11
+    steps-to-reproduce: |
+      Поиск окна регестрации
+    expected-result: |
+      Страница выдаёт ошибку что поля пустые
+      Предупреждение об ограничении символов до 30
+      Предупреждение о некорректности ввода данных
+    actual-result: |
+      Результата нет
+
+       - summary: |
+      Поиск товара
+    status: fail
+
+bugreports:
+  - summary: |
+      Нету поиска товара
+    environment: |
+       Yandex Browser (25.2.5)
+       OC Windows 11
+    steps-to-reproduce: |
+      Вводим в поисковой строке товара (помада, кровать, мебель)
+    expected-result: |
+      Сайт выдаёт результат запроса
+    actual-result: |
+      сайт не выдаёт результат запроса
+      
+test-cases:
+  - summary: |
+      Фильтр товаров
+    status: pass
+
+test-cases:
+  - summary: |
+      Мобильная версия сайта
+    status: pass
+
+     bugreports: []
+
+     
+test-cases:
+  - summary: |
+      Совместимость с разными браузерами
+    status: pass
+
+    test-cases:
+  - summary: |
+      Проверка рафика
+    status: pass
+
+test-cases:
+  - summary: |
+      Проверка товаров
+    status: pass
+
+test-cases:
+  - summary: |
+      Проверка корзины
+    status: pass
+
