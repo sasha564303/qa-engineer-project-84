@@ -9,24 +9,24 @@
 
 - summary: |
     Поиск товара
- status: fail
+  status: fail
 
--sumary: |
-   Фильтр товара
- status: pass
+- summary: |
+    Фильтр товара
+  status: pass
 
--summery: |
-   Мобильная версия сайта
- status: fail
+- summary: |
+    Мобильная версия сайта
+  status: fail
 
--summery: |
-   Совместимость с разными браузера и устройствами
- status: pass
+- summery: |
+    Совместимость с разными браузера и устройствами
+  status: pass
 
--summer: |
-   Проверка товаров
- status: pass
+- summer: |
+    Проверка товаров
+  status: pass
 
--summer: |
-   Проверка корзины
- status: pass
+- summer: |
+    Проверка корзины
+  status: pass
