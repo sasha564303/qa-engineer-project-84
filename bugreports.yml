@@ -5,7 +5,7 @@
      Yandex Browser (25.2.5.)
      OC Windows 11
    steps-to-reproduce: |
-     Сразу при поиске регистроации
+    1. Сразу при поиске регистроации
    expected-result: |
      Должно быть окно регестрации
    actual-result: |
@@ -17,8 +17,8 @@
       Yandex Browser (25.2.5.)
       OC Windows 11
    steps-to-reproduce: |
-      Выбрать строчку для поиска товара
-      Ввести название (помада)
+     1. Выбрать строчку для поиска товара
+     2. Ввести название (помада)
    expected-result: |
       Поиск должен выдавать товар
    actual-result: |
@@ -30,8 +30,8 @@
      Yandex Browser (25.2.5.)
      OC Windows 11
    steps-to-reproduce: |
-     Выбираеи инструмент разработчика
-     Выбрали телефоны (iPhone SE, Samsung S20 Ultra)
+    1. Выбираеи инструмент разработчика
+    2. Выбрали телефоны (iPhone SE, Samsung S20 Ultra)
    expected-result: |
      Разметка CSS и HTML должны быть корретными
    actual-result: |
