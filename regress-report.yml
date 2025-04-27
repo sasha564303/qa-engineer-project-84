@@ -6,18 +6,10 @@ test-cases:
 
 bugreports:
   - summary: |
-      Пользователь не может зарегестриватся
-    environment: |
-            - summary: |
-      Краткое описание тест-кейса. Например, проверка входа пользователя с существующими логином и паролем
-    status: fail
-
-bugreports:
-  - summary: |
       Короткое описание ошибки
     environment: |
-          Yandex Browser (25.2.5)
-          OC Windows 11
+      Yandex Browser (25.2.5)
+      OC Windows 11
     steps-to-reproduce: |
       При входе на страницу нету окна регистрации
     expected-result: |
@@ -25,7 +17,8 @@ bugreports:
     actual-result: |
       Окно регестрации отсуствует
 
-       - summary: |
+test-cases:
+  - summary: |
       Защита данных пользователя
     status: fail
 
@@ -33,8 +26,8 @@ bugreports:
   - summary: |
       Нет окна регестрации, пенкт проверить невозможно 
     environment: |
-          Yandex Browser (25.2.5)
-          OC Windows 11
+      Yandex Browser (25.2.5)
+      OC Windows 11
     steps-to-reproduce: |
       Поиск окна регестрации
     expected-result: |
@@ -44,7 +37,8 @@ bugreports:
     actual-result: |
       Результата нет
 
-       - summary: |
+test-cases:
+  - summary: |
       Поиск товара
     status: fail
 
@@ -52,8 +46,8 @@ bugreports:
   - summary: |
       Нету поиска товара
     environment: |
-       Yandex Browser (25.2.5)
-       OC Windows 11
+      Yandex Browser (25.2.5)
+      OC Windows 11
     steps-to-reproduce: |
       Вводим в поисковой строке товара (помада, кровать, мебель)
     expected-result: |
@@ -70,16 +64,13 @@ test-cases:
   - summary: |
       Мобильная версия сайта
     status: pass
-
-     bugreports: []
-
      
 test-cases:
   - summary: |
       Совместимость с разными браузерами
     status: pass
 
-    test-cases:
+test-cases:
   - summary: |
       Проверка рафика
     status: pass
