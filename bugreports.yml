@@ -1,39 +1,39 @@
-   ---
+---
  - summery: | 
      Нету регистрации пользователя 
-  environment: |
+   environment: |
      Yandex Browser (25.2.5.)
      OC Windows 11
    steps-to-reproduce: |
-    Сразу при поиске регистроации
+     Сразу при поиске регистроации
    expected-result: |
      Должно быть окно регестрации
-    actual-result: |
+   actual-result: |
      Окно регестрации не было найдено
 
-  - summery: |
+ - summery: |
       При помощи поисовой строки тавар не находится
-    environment: |
+   environment: |
       Yandex Browser (25.2.5.)
       OC Windows 11
-    steps-to-reproduce: |
-       Выбрать строчку для поиска товара
-       Ввести название (помада)
-    expected-result: |
-       Поиск должен выдавать товар
-    actual-result: |
-       Товар не был найден при помощи поисковой строки
+   steps-to-reproduce: |
+      Выбрать строчку для поиска товара
+      Ввести название (помада)
+   expected-result: |
+      Поиск должен выдавать товар
+   actual-result: |
+      Товар не был найден при помощи поисковой строки
 
-  - summery: |
-       Мобильная версия сайта работает некорректно
-    environment: |
-       Yandex Browser (25.2.5.)
-       OC Windows 11
-     steps-to-reproduce: |
-       Выбираеи инструмент разработчика
-       Выбрали телефоны (iPhone SE, Samsung S20 Ultra)
-     expected-result: |
-       Разметка CSS и HTML должны быть корретными
-     actual-result: |
-       Разметка CSS и HTML некорректные
+ - summery: |
+     Мобильная версия сайта работает некорректно
+   environment: |
+     Yandex Browser (25.2.5.)
+     OC Windows 11
+   steps-to-reproduce: |
+     Выбираеи инструмент разработчика
+     Выбрали телефоны (iPhone SE, Samsung S20 Ultra)
+   expected-result: |
+     Разметка CSS и HTML должны быть корретными
+   actual-result: |
+     Разметка CSS и HTML некорректные
     
