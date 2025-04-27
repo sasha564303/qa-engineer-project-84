@@ -1,4 +1,4 @@
-    ---
+---
 test-cases:
   - summary: |
       Регистрация пользователя
@@ -13,10 +13,10 @@ bugreports:
     steps-to-reproduce: |
       При входе на страницу нету окна регистрации
     expected-result: |
-      Пользовательно должен зарегестриватся
+      Пользователь должен зарегестриватся
     actual-result: |
       Окно регестрации отсуствует
-
+---
 test-cases:
   - summary: |
       Защита данных пользователя
@@ -36,7 +36,7 @@ bugreports:
       Предупреждение о некорректности ввода данных
     actual-result: |
       Результата нет
-
+---
 test-cases:
   - summary: |
       Поиск товара
@@ -54,32 +54,32 @@ bugreports:
       Сайт выдаёт результат запроса
     actual-result: |
       сайт не выдаёт результат запроса
-      
+---   
 test-cases:
   - summary: |
       Фильтр товаров
     status: pass
-
+---
 test-cases:
   - summary: |
       Мобильная версия сайта
     status: pass
-     
+---     
 test-cases:
   - summary: |
       Совместимость с разными браузерами
     status: pass
-
+---
 test-cases:
   - summary: |
       Проверка рафика
     status: pass
-
+---
 test-cases:
   - summary: |
       Проверка товаров
     status: pass
-
+---
 test-cases:
   - summary: |
       Проверка корзины
