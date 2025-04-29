@@ -19,14 +19,14 @@
     Мобильная версия сайта
   status: fail
 
-- summery: |
+- summary: |
     Совместимость с разными браузера и устройствами
   status: pass
 
-- summer: |
+- summary: |
     Проверка товаров
   status: pass
 
-- summer: |
+- summary: |
     Проверка корзины
   status: pass
