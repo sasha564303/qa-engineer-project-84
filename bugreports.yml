@@ -1,5 +1,5 @@
 ---
- - summery: | 
+ - summay: | 
      Нету регистрации пользователя 
    environment: |
      Yandex Browser (25.2.5.)
@@ -11,7 +11,7 @@
    actual-result: |
      Окно регестрации не было найдено
 
- - summery: |
+ - summary: |
       При помощи поисовой строки тавар не находится
    environment: |
       Yandex Browser (25.2.5.)
@@ -24,7 +24,7 @@
    actual-result: |
       Товар не был найден при помощи поисковой строки
 
- - summery: |
+ - summary: |
      Мобильная версия сайта работает некорректно
    environment: |
      Yandex Browser (25.2.5.)
