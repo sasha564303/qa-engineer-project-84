@@ -21,12 +21,10 @@ bugreports:
     actual-result: |
       Окно регистрации отсутствует
 
-test-cases:
   - summary: |
       Защита данных пользователя
     status: fail
 
-bugreports:
   - summary: |
       Проверка невозможна из-за отсутствия формы регистрации
     environment: |
@@ -43,12 +41,10 @@ bugreports:
     actual-result: |
       Форма регистрации отсутствует
 
-test-cases:
   - summary: |
       Поиск товара
     status: fail
 
-bugreports:
   - summary: |
       Поиск не отображает результаты
     environment: |
@@ -62,32 +58,26 @@ bugreports:
     actual-result: |
       Поисковая строка не выдает результаты
   
-test-cases:
   - summary: |
       Фильтр товаров
     status: pass
 
-test-cases:
   - summary: |
       Мобильная версия сайта
     status: pass
     
-test-cases:
   - summary: |
       Совместимость с разными браузерами
     status: pass
 
-test-cases:
   - summary: |
       Проверка рафика
     status: pass
 
-test-cases:
   - summary: |
       Проверка товаров
     status: pass
 
-test-cases:
   - summary: |
       Проверка корзины
     status: pass
