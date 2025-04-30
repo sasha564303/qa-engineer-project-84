@@ -61,7 +61,7 @@ bugreports:
       Мобильная версия сайта
     status: pass
     
-    - summary: |
+  - summary: |
       Совместимость с разными браузерами
     status: pass
     environment: |
