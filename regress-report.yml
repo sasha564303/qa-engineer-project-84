@@ -104,7 +104,7 @@ bugreports:
     actual-result: |
       Ошибок не выявлено.
 
-    - summary: |
+  - summary: |
       Проверка корзины
     status: pass
     environment: |
