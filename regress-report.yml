@@ -39,8 +39,6 @@ bugreports:
   - summary: |
       Поиск товара
     status: fail
-
-  - summary: |
       Поиск не отображает результаты
     environment: |
       Yandex Browser (25.2.5)
@@ -56,11 +54,28 @@ bugreports:
   - summary: |
       Фильтр товаров
     status: pass
-
+    environment: |
+      Yandex Browser (25.2.5)
+    steps-to-reproduce: |
+      1. Открыть сайт
+      2. Выбрать фильтр (Диор, Холм)
+    expected-result: |
+      Сайт с выбранным фильтром показывает нужный товар.
+    actual-result: |
+      Тест пройден успешно.
+      
   - summary: |
       Мобильная версия сайта
     status: pass
-    
+    environment: |
+      Yandex Browser (25.2.5)
+    steps-to-reproduce: |
+      1. Выбрать разные модели телефонов
+    expected-result: |
+      Сайт в мобильной версии работает корретно.
+    actual-result: |
+      Тест пройден успешно.
+
   - summary: |
       Совместимость с разными браузерами
     status: pass
