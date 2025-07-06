@@ -1,9 +1,5 @@
 ---
 - summary: |
-    Проверка авторизации пользователя
-  status: fail
-
-- summary: |
     Защита данных пользователя
   status: fail
 
@@ -30,3 +26,15 @@
 - summary: |
     Проверка корзины
   status: pass
+
+- summary: |
+    Проверка страницы товара
+  status: pass
+
+- summary: |
+    Проверка заказа
+  status: pass
+
+- summary: |
+    Проверка выбора языка
+  status: pass 
